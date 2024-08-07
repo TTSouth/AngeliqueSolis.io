@@ -1,0 +1,224 @@
+﻿/* Index Page and Template CSS */
+
+body {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    background-image: url('images/bg/default-bg.jpg');
+}
+
+
+
+.parent {
+    margin-top: 0;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.5);
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+
+
+.mainNav {
+    background-color: #222222;
+}
+
+nav {
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    background-color: black;
+}
+
+nav > ul > li {
+    float: left;
+    text-transform: uppercase;
+}
+
+            nav > ul > li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 16px;
+                text-decoration: none;
+            }
+
+    nav a:hover {
+        background-color: #A95C68;
+        color: white;
+    }
+
+
+.parentcontainer {
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.bgcontainer {
+    background-color: #111111;
+    margin-top: 0;
+}
+
+.bxcontainer {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+  
+
+table,
+td,
+th {
+    padding-left: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-collapse: collapse;
+}
+
+    table,
+    td img:hover {
+        padding-left: 5px;
+        border: 1px solid #A95C68;
+        border-collapse: collapse;
+    }
+
+.bx1 {
+    background-color: #222222;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+    .bx1 p {
+        font-size: 17px;
+        color: white;
+        padding-left: 80px;
+    }
+
+.button {
+    background-color: #333333;
+    border: none;
+    color: #555555;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+}
+
+/* footer area */
+.footerbox {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+footer {
+
+}
+
+ ul.a {
+    list-style-type: square;
+}
+
+ul > li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+.footerbox ul > li a:hover {
+    color: #A95C68;
+    font-weight: bold;
+}
+
+.row {
+    clear: both;
+}
+
+.column {
+    float: left;
+    padding: 0 2vw;
+    margin: 0 0 .75rem 0;
+}
+
+.clear-fix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.copy {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    text-align: center;
+    font-size: 12px;
+}
+
+/* Contact Me Page Form CSS */
+
+fieldset {
+    border: 3px solid rgba(255, 255, 255, 0.15);
+}
+
+    fieldset > legend {
+        color: #999999;
+    }
+
+p > label {
+    display: block;
+}
+
+input[type="email"],
+input[type="tel"],
+textarea {
+    border-radius: 7px;
+}
+
+input:valid {
+    border-color: #333333;
+}
+
+input:invalid {
+    border-color: #333333;
+}
+
+input:required {
+    border-style: dashed;
+}
+
+/* About Page */
+
+.bordercontainer {
+    background-color: #111111;
+}
+.titlecontainer {
+   - width: 99%;
+   - height: 98%;
+   - position: absolute;
+    background: transparent background: transparent url('images/bg/cbg-1-light.png') repeat scroll 0% 0%;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
