@@ -1,87 +1,77 @@
+
 # Angelique Solis Model Example Website
 
-  This is one of my first websites that I created on my own to practice HTML and CSS. I got my inspiration from a wordpress template that I came across. This website is one of three model websites that I created that week. This is the original so it does need some clean up.
-
-  ## The Website Template Explained
-
-  I designed a template to use for each page so that I can copy it over to each page. I have used Figma to create a visual example to show the layout. 
-  You can view it here 
-
-  [FIGMA EXAMPLE] (https://bit.ly/ModelASBoxLayout)
-
-  ![Angeliqu Solis](https://bit.ly/ModelASBoxLayout))
-
-
-  The template consists of many divs to split up the content and to create containers within containers for design purposes. The background is done in the stylesheet. 
-  You can view the template page in the main section of the repository.
-  
-  - The div class Parent contains all of the websites content from the Mainer Header to the copyright footer.
-  - The div class Parent contains all of the websites content from the Mainer Header to the copyright footer.
-  - Header contains the banner logo.
-  - BgContainer contains the TitleBox with the page's title to the copyright footer.
-  - MainNav contains the main menu to navigate through site.
-  - ParentContainer holds the Main Content of site. One borders around the TitleBox and the other borders around the Main.
-  - BxContainer is inside the ParentContainer and creates a lighter design around the BorderContainer of the TitleBox around the Main content.
-  - TitleBox containers a dark flowery design the title of each page
-  - Main contains the main content of each page
+This is one of my first websites that I created on my own to practice HTML and CSS. I got my inspiration from a wordpress template that I came across. This website is one of three model websites that I created that week. This is the original so it does need some clean up.
 
 
 
 
-      
-        <Parent> 
-          <header> Banner Logo </header>
-            <BgContainer>
-        
-              <MainNav> Main Menu </MainNav>
-              
-              <ParentContainer>
-                <BxContainer>
-                  <BorderContainer>
-                    <TitleBox> Page Title </TitleBox>
-                  </BorderContainer>
-                </BxContainer>
-              </ParentContainer>
-              
-              <ParentContainer>
-                <BxContainer>
-                  <Main> Main Content </Main>
-                </BxContainer>
-              </ParentContainer>
-            
-              <Footer>
-                <Row>
-                  <Column> Title / Pages </Column>
-                  <Column> Title / Pages </Column>
-                  <Column> Title / Pages </Column>  
-                  <Column> Title / Pages </Column>
-                </Row>
-              </Footer>
-          
-              <Copyright> Copyrights </Copyright>
-      
-          </BgContainer>
-        </Parent> 
+##### 🔗 **See Site Live Here**
+[![Live Site](https://img.shields.io/badge/Angelique_Solis-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ttsouth.github.io/AngeliqueSolis.io/)
 
 
 
-      
 
-  ## Homepage Content Explained
+## Technologies
 
-  ## About Content Explained
+I used HTML and pure CSS to build this website.
+
+I practiced CSS to create a responsive, visually appealing, and user-friendly website. Key features of the CSS implementation include:
+
+  - ![Live Site](https://img.shields.io/badge/Global_Styling-000?style=for-the-badge&logo=ko-fi&logoColor=purple) : Applied universal selectors to normalize styles across browsers, ensuring consistency in elements like margins, padding, and box-sizing.
 
 
-  ## Print Content Explained
+  - ![Live Site](https://img.shields.io/badge/Fixed_and_Rotated_Elements-000?style=for-the-badge&logo=ko-fi&logoColor=purple) : Created visually striking elements like a fixed, rotated .cardBooking button to enhance user engagement and interaction.
 
-  ## Digital Content Explained
 
-  ## Movies Content Explained
+  - ![Live Site](https://img.shields.io/badge/Custom_Navigation-000?style=for-the-badge&logo=ko-fi&logoColor=purple) : Designed a custom navigation bar with hover effects, leveraging CSS transitions for smooth animations.
 
-  ## Photoshoots Content Explained
 
-  ## News Content Explained
+ - ![Live Site](https://img.shields.io/badge/Content_Layouts-000?style=for-the-badge&logo=ko-fi&logoColor=purple) : Structured complex content sections using flexbox for alignment and grid systems to maintain balance across the page.
 
-  ## Follow Content Explained
 
-  ## Contact Content Explained
+ - ![Live Site](https://img.shields.io/badge/Hover_Effects-000?style=for-the-badge&logo=ko-fi&logoColor=purple) : Implemented interactive hover effects for images and buttons, providing feedback to users through color changes and animations.
+
+
+ - ![Live Site](https://img.shields.io/badge/Theming_and_Aesthetic-000?style=for-the-badge&logo=ko-fi&logoColor=purple) : Selected a dark theme with accent colors, utilizing background images and color overlays to maintain a cohesive visual style.
+
+ 
+ - ![Live Site](https://img.shields.io/badge/Form_Styling-000?style=for-the-badge&logo=ko-fi&logoColor=purple) : Enhanced form elements with customized styles for validation, borders, and input focus, contributing to a polished user experience.
+
+
+This approach allowed me to gain hands-on experience with both fundamental and advanced CSS techniques, honing my skills in web design and responsiveness.
+
+
+It also uses lists for navigation in the main menu and in multiple columns in the footer section. CSS flexbox was used to build the layout and assist in the responsiveness of the webpage. 
+
+
+## Template Layout Explanation
+
+Template Layout:
+
+[ON FIGMA] (https://bit.ly/ModelASBoxLayout)
+
+![FIGMA Layout Screenshot](https://github.com/TTSouth/AngeliqueSolis.io/blob/main/ReadMeImages/SolisSiteBoxFigma.png?raw=true)
+
+
+## Screenshots
+
+![Homepage Screenshot](https://github.com/TTSouth/AngeliqueSolis.io/blob/cf4d6b45a67229a08ac91f668eea5352a2759151/ReadMeImages/ScreenshotHomepage.png?raw=true)
+
+![About Page Screenshot](https://github.com/TTSouth/AngeliqueSolis.io/blob/main/ReadMeImages/Screenshot%202024-08-10%20140702.png?raw=true)
+
+![Movies Page Screenshot](https://github.com/TTSouth/AngeliqueSolis.io/blob/main/ReadMeImages/Screenshot%202024-08-10%20141347.png?raw=true)
+
+![Photoshoots Page Screenshot](https://github.com/TTSouth/AngeliqueSolis.io/blob/main/ReadMeImages/Screenshot%202024-08-10%20140920.png?raw=true)
+
+![Digital Page Screenshot](https://github.com/TTSouth/AngeliqueSolis.io/blob/main/ReadMeImages/Screenshot%202024-08-10%20141028.png?raw=true)
+
+![News Page Screenshot](https://github.com/TTSouth/AngeliqueSolis.io/blob/main/ReadMeImages/Screenshot%202024-08-10%20141057.png?raw=true)
+
+![Digital Page Screenshot](https://github.com/TTSouth/AngeliqueSolis.io/blob/main/ReadMeImages/Screenshot%202024-08-10%20141028.png?raw=true)
+
+
+
+##### 🔗 **See More Here!**
+[![Live Site](https://img.shields.io/badge/Angelique_Solis-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ttsouth.github.io/AngeliqueSolis.io/)
+
