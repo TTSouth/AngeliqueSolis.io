@@ -13,9 +13,7 @@
 
 /* Main Booking Button */
 
-.bookingBtn {
-    
-}
+
 
 .cardBooking {
     position: fixed;
@@ -46,6 +44,11 @@ body {
     margin-right: auto;
     background-color: #111111;
     background-image: url('images/bg/default-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 @media only screen and (min-width: 768px) {
@@ -195,9 +198,7 @@ th {
     border-top: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-footer {
 
-}
 
  ul.a {
     list-style-type: square;
